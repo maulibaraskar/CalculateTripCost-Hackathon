@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\2090965\Downloads\Team_07_CalculateTripCost_100752\CalculateTripCosts\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="SortBy">SortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="SortBy">SortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="close">close</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="close">close</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="cruisesHome">cruisesHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="cruisesHome">cruisesHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="holidayHomePrice">holidayHomePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="holidayHomePrice">holidayHomePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="holidayHomes">holidayHomes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="holidayHomes">holidayHomes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="liftAccess">liftAccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="liftAccess">liftAccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="resultsPage">resultsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="resultsPage">resultsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="returnHomePage">returnHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="returnHomePage">returnHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="searchPage">searchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.HolidayHomes" hash-for-method="searchPage">searchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="selectCruises">selectCruises</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="selectCruises">selectCruises</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="shipDetails">shipDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Cruises" hash-for-method="shipDetails">shipDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.Cruises</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="close">
+                  </a> <!-- close -->
+                  <span class="method-name">close</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="close">
+                  </a> <!-- close -->
+                  <span class="method-name">close</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cruisesHome">
+                  </a> <!-- cruisesHome -->
+                  <span class="method-name">cruisesHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cruisesHome">
+                  </a> <!-- cruisesHome -->
+                  <span class="method-name">cruisesHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCruises">
+                  </a> <!-- selectCruises -->
+                  <span class="method-name">selectCruises</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCruises">
+                  </a> <!-- selectCruises -->
+                  <span class="method-name">selectCruises</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shipDetails">
+                  </a> <!-- shipDetails -->
+                  <span class="method-name">shipDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shipDetails">
+                  </a> <!-- shipDetails -->
+                  <span class="method-name">shipDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.HolidayHomes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortBy">
+                  </a> <!-- SortBy -->
+                  <span class="method-name">SortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortBy">
+                  </a> <!-- SortBy -->
+                  <span class="method-name">SortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holidayHomePrice">
+                  </a> <!-- holidayHomePrice -->
+                  <span class="method-name">holidayHomePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holidayHomePrice">
+                  </a> <!-- holidayHomePrice -->
+                  <span class="method-name">holidayHomePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holidayHomes">
+                  </a> <!-- holidayHomes -->
+                  <span class="method-name">holidayHomes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holidayHomes">
+                  </a> <!-- holidayHomes -->
+                  <span class="method-name">holidayHomes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="liftAccess">
+                  </a> <!-- liftAccess -->
+                  <span class="method-name">liftAccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="liftAccess">
+                  </a> <!-- liftAccess -->
+                  <span class="method-name">liftAccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resultsPage">
+                  </a> <!-- resultsPage -->
+                  <span class="method-name">resultsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resultsPage">
+                  </a> <!-- resultsPage -->
+                  <span class="method-name">resultsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnHomePage">
+                  </a> <!-- returnHomePage -->
+                  <span class="method-name">returnHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnHomePage">
+                  </a> <!-- returnHomePage -->
+                  <span class="method-name">returnHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPage">
+                  </a> <!-- searchPage -->
+                  <span class="method-name">searchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPage">
+                  </a> <!-- searchPage -->
+                  <span class="method-name">searchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2090965\Downloads\Team_07_CalculateTripCost_100752\CalculateTripCosts\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.HolidayHomes&quot;/&gt;
+      &lt;class name=&quot;Tests.Cruises&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MS-Edge&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;msedge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.HolidayHomes&quot;/&gt;
+      &lt;class name=&quot;Tests.Cruises&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MS-Edge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">MS-Edge (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SortBy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">close</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cruisesHome</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">holidayHomePrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">holidayHomes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">liftAccess</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">resultsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">returnHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCruises</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">shipDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">close</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">holidayHomes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchPage')
+data.setCell(0, 2, 'Tests.HolidayHomes')
+data.setCell(0, 3, 16895);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchPage')
+data.setCell(1, 2, 'Tests.HolidayHomes')
+data.setCell(1, 3, 15290);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shipDetails')
+data.setCell(2, 2, 'Tests.Cruises')
+data.setCell(2, 3, 13344);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shipDetails')
+data.setCell(3, 2, 'Tests.Cruises')
+data.setCell(3, 3, 12661);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cruisesHome')
+data.setCell(4, 2, 'Tests.Cruises')
+data.setCell(4, 3, 12504);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cruisesHome')
+data.setCell(5, 2, 'Tests.Cruises')
+data.setCell(5, 3, 11128);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectCruises')
+data.setCell(6, 2, 'Tests.Cruises')
+data.setCell(6, 3, 9197);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectCruises')
+data.setCell(7, 2, 'Tests.Cruises')
+data.setCell(7, 3, 9082);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'holidayHomes')
+data.setCell(8, 2, 'Tests.HolidayHomes')
+data.setCell(8, 3, 6647);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'holidayHomes')
+data.setCell(9, 2, 'Tests.HolidayHomes')
+data.setCell(9, 3, 5545);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'resultsPage')
+data.setCell(10, 2, 'Tests.HolidayHomes')
+data.setCell(10, 3, 4040);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'resultsPage')
+data.setCell(11, 2, 'Tests.HolidayHomes')
+data.setCell(11, 3, 3798);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'holidayHomePrice')
+data.setCell(12, 2, 'Tests.HolidayHomes')
+data.setCell(12, 3, 3709);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'close')
+data.setCell(13, 2, 'Tests.Cruises')
+data.setCell(13, 3, 3352);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'liftAccess')
+data.setCell(14, 2, 'Tests.HolidayHomes')
+data.setCell(14, 3, 2881);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'close')
+data.setCell(15, 2, 'Tests.Cruises')
+data.setCell(15, 3, 2726);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'liftAccess')
+data.setCell(16, 2, 'Tests.HolidayHomes')
+data.setCell(16, 3, 2613);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'holidayHomePrice')
+data.setCell(17, 2, 'Tests.HolidayHomes')
+data.setCell(17, 3, 2612);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'returnHomePage')
+data.setCell(18, 2, 'Tests.HolidayHomes')
+data.setCell(18, 3, 2468);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SortBy')
+data.setCell(19, 2, 'Tests.HolidayHomes')
+data.setCell(19, 3, 2440);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'SortBy')
+data.setCell(20, 2, 'Tests.HolidayHomes')
+data.setCell(20, 3, 2315);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'returnHomePage')
+data.setCell(21, 2, 'Tests.HolidayHomes')
+data.setCell(21, 3, 1429);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Cruises</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flushReport</span>
+                <br/>
+                <span class="ignored-method-name">flushReport</span>
+                <br/>
+                <span class="ignored-method-name">extentReport</span>
+                <br/>
+                <span class="ignored-method-name">extentReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.HolidayHomes</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentReport(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">getDriver(chrome)</span>
+                <span class="method-start">396 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">holidayHomes</span>
+                <span class="method-start">9004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=holidayHomes status=SUCCESS method=HolidayHomes.holidayHomes()[pri:0, instance:Test...)</span>
+                <span class="method-start">14554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchPage</span>
+                <span class="method-start">14562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=searchPage status=SUCCESS method=HolidayHomes.searchPage()[pri:0, instance:Tests.Ho...)</span>
+                <span class="method-start">29854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">resultsPage</span>
+                <span class="method-start">29856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=resultsPage status=SUCCESS method=HolidayHomes.resultsPage()[pri:0, instance:Tests....)</span>
+                <span class="method-start">33656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SortBy</span>
+                <span class="method-start">33657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SortBy status=SUCCESS method=HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHom...)</span>
+                <span class="method-start">35973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">liftAccess</span>
+                <span class="method-start">35974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=liftAccess status=SUCCESS method=HolidayHomes.liftAccess()[pri:0, instance:Tests.Ho...)</span>
+                <span class="method-start">38588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">holidayHomePrice</span>
+                <span class="method-start">38589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=holidayHomePrice status=SUCCESS method=HolidayHomes.holidayHomePrice()[pri:0, insta...)</span>
+                <span class="method-start">42300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">returnHomePage</span>
+                <span class="method-start">42302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=returnHomePage status=SUCCESS method=HolidayHomes.returnHomePage()[pri:0, instance:...)</span>
+                <span class="method-start">43732 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Cruises</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cruisesHome</span>
+                <span class="method-start">43734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=cruisesHome status=SUCCESS method=Cruises.cruisesHome()[pri:0, instance:Tests.Cruis...)</span>
+                <span class="method-start">54864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCruises</span>
+                <span class="method-start">54866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=selectCruises status=SUCCESS method=Cruises.selectCruises()[pri:0, instance:Tests.C...)</span>
+                <span class="method-start">63948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">shipDetails</span>
+                <span class="method-start">63949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=shipDetails status=SUCCESS method=Cruises.shipDetails()[pri:0, instance:Tests.Cruis...)</span>
+                <span class="method-start">76611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">close</span>
+                <span class="method-start">76613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=close status=SUCCESS method=Cruises.close()[pri:1, instance:Tests.Cruises@319b92f3]...)</span>
+                <span class="method-start">79340 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.HolidayHomes</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">79341 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">extentReport(msedge)</span>
+                <span class="method-start">79723 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">getDriver(msedge)</span>
+                <span class="method-start">79724 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">holidayHomes</span>
+                <span class="method-start">85969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=holidayHomes status=SUCCESS method=HolidayHomes.holidayHomes()[pri:0, instance:Test...)</span>
+                <span class="method-start">92617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchPage</span>
+                <span class="method-start">92619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=searchPage status=SUCCESS method=HolidayHomes.searchPage()[pri:0, instance:Tests.Ho...)</span>
+                <span class="method-start">109515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">resultsPage</span>
+                <span class="method-start">109516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=resultsPage status=SUCCESS method=HolidayHomes.resultsPage()[pri:0, instance:Tests....)</span>
+                <span class="method-start">113558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SortBy</span>
+                <span class="method-start">113559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SortBy status=SUCCESS method=HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHom...)</span>
+                <span class="method-start">116000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">liftAccess</span>
+                <span class="method-start">116001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=liftAccess status=SUCCESS method=HolidayHomes.liftAccess()[pri:0, instance:Tests.Ho...)</span>
+                <span class="method-start">118883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">holidayHomePrice</span>
+                <span class="method-start">118884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=holidayHomePrice status=SUCCESS method=HolidayHomes.holidayHomePrice()[pri:0, insta...)</span>
+                <span class="method-start">121497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">returnHomePage</span>
+                <span class="method-start">121499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=returnHomePage status=SUCCESS method=HolidayHomes.returnHomePage()[pri:0, instance:...)</span>
+                <span class="method-start">123968 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Cruises</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cruisesHome</span>
+                <span class="method-start">123968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=cruisesHome status=SUCCESS method=Cruises.cruisesHome()[pri:0, instance:Tests.Cruis...)</span>
+                <span class="method-start">136472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCruises</span>
+                <span class="method-start">136473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=selectCruises status=SUCCESS method=Cruises.selectCruises()[pri:0, instance:Tests.C...)</span>
+                <span class="method-start">145671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">shipDetails</span>
+                <span class="method-start">145673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=shipDetails status=SUCCESS method=Cruises.shipDetails()[pri:0, instance:Tests.Cruis...)</span>
+                <span class="method-start">159018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">close</span>
+                <span class="method-start">159019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.HolidayHomes</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">162372 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Cruises</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=close status=SUCCESS method=Cruises.close()[pri:1, instance:Tests.Cruises@43d7741f]...)</span>
+                <span class="method-start">162372 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

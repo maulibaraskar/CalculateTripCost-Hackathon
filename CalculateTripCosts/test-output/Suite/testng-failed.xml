@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser_name" value="chrome"/>
+    <classes>
+      <class name="Tests.Cruises">
+        <methods>
+          <include name="flushReport"/>
+          <include name="shipDetails"/>
+          <include name="cruisesHome"/>
+          <include name="extentReport"/>
+          <include name="selectCruises"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Tests.Cruises -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" name="MS-Edge(failed)">
+    <parameter name="browser_name" value="msedge"/>
+    <classes>
+      <class name="Tests.Cruises">
+        <methods>
+          <include name="flushReport"/>
+          <include name="shipDetails"/>
+          <include name="cruisesHome"/>
+          <include name="extentReport"/>
+          <include name="selectCruises"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Tests.Cruises -->
+    </classes>
+  </test> <!-- MS-Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

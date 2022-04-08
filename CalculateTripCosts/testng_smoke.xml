@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Chrome">
+		<parameter name="browser_name" value="chrome" />
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Tests.HolidayHomes" />
+			<class name="Tests.Cruises" />
+		</classes>
+	</test> <!-- Test 1-->
+
+	<test name="MS-Edge">
+		<parameter name="browser_name" value="msedge" />
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Tests.HolidayHomes" />
+			<class name="Tests.Cruises" />
+		</classes>
+	</test> <!-- Test 2-->
+
+</suite> <!-- Suite -->

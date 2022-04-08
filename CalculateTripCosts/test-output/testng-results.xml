@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="26" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162459" started-at="2022-04-08T21:23:06 IST" finished-at="2022-04-08T21:25:48 IST">
+    <groups>
+      <group name="regression">
+        <method signature="Cruises.close()[pri:1, instance:Tests.Cruises@319b92f3]" name="close" class="Tests.Cruises"/>
+        <method signature="Cruises.cruisesHome()[pri:0, instance:Tests.Cruises@319b92f3]" name="cruisesHome" class="Tests.Cruises"/>
+        <method signature="Cruises.selectCruises()[pri:0, instance:Tests.Cruises@319b92f3]" name="selectCruises" class="Tests.Cruises"/>
+        <method signature="Cruises.shipDetails()[pri:0, instance:Tests.Cruises@319b92f3]" name="shipDetails" class="Tests.Cruises"/>
+        <method signature="HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="holidayHomes" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.searchPage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="searchPage" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.resultsPage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="resultsPage" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="SortBy" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.liftAccess()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="liftAccess" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="holidayHomePrice" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.returnHomePage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="returnHomePage" class="Tests.HolidayHomes"/>
+        <method signature="Cruises.close()[pri:1, instance:Tests.Cruises@43d7741f]" name="close" class="Tests.Cruises"/>
+        <method signature="Cruises.cruisesHome()[pri:0, instance:Tests.Cruises@43d7741f]" name="cruisesHome" class="Tests.Cruises"/>
+        <method signature="Cruises.selectCruises()[pri:0, instance:Tests.Cruises@43d7741f]" name="selectCruises" class="Tests.Cruises"/>
+        <method signature="Cruises.shipDetails()[pri:0, instance:Tests.Cruises@43d7741f]" name="shipDetails" class="Tests.Cruises"/>
+        <method signature="HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="holidayHomes" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.searchPage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="searchPage" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.resultsPage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="resultsPage" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="SortBy" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.liftAccess()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="liftAccess" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="holidayHomePrice" class="Tests.HolidayHomes"/>
+        <method signature="HolidayHomes.returnHomePage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="returnHomePage" class="Tests.HolidayHomes"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Cruises.close()[pri:1, instance:Tests.Cruises@319b92f3]" name="close" class="Tests.Cruises"/>
+        <method signature="HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="holidayHomes" class="Tests.HolidayHomes"/>
+        <method signature="Cruises.close()[pri:1, instance:Tests.Cruises@43d7741f]" name="close" class="Tests.Cruises"/>
+        <method signature="HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="holidayHomes" class="Tests.HolidayHomes"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Chrome" duration-ms="79700" started-at="2022-04-08T21:23:06 IST" finished-at="2022-04-08T21:24:25 IST">
+      <class name="Tests.Cruises">
+        <test-method status="PASS" signature="cruisesHome()[pri:0, instance:Tests.Cruises@319b92f3]" name="cruisesHome" duration-ms="11128" started-at="2022-04-08T21:23:49 IST" finished-at="2022-04-08T21:24:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruisesHome -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@319b92f3]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:01 IST" finished-at="2022-04-08T21:24:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cruisesHome status=SUCCESS method=Cruises.cruisesHome()[pri:0, instance:Tests.Cruises@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="selectCruises()[pri:0, instance:Tests.Cruises@319b92f3]" name="selectCruises" duration-ms="9082" started-at="2022-04-08T21:24:01 IST" depends-on-methods="Tests.Cruises.cruisesHome" finished-at="2022-04-08T21:24:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruises -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@319b92f3]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:10 IST" finished-at="2022-04-08T21:24:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCruises status=SUCCESS method=Cruises.selectCruises()[pri:0, instance:Tests.Cruises@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="shipDetails()[pri:0, instance:Tests.Cruises@319b92f3]" name="shipDetails" duration-ms="12661" started-at="2022-04-08T21:24:10 IST" depends-on-methods="Tests.Cruises.selectCruises" finished-at="2022-04-08T21:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@319b92f3]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:22 IST" finished-at="2022-04-08T21:24:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shipDetails status=SUCCESS method=Cruises.shipDetails()[pri:0, instance:Tests.Cruises@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="close()[pri:1, instance:Tests.Cruises@319b92f3]" name="close" duration-ms="2726" started-at="2022-04-08T21:24:22 IST" finished-at="2022-04-08T21:24:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@319b92f3]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:25 IST" finished-at="2022-04-08T21:24:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=close status=SUCCESS method=Cruises.close()[pri:1, instance:Tests.Cruises@319b92f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.Cruises -->
+      <class name="Tests.HolidayHomes">
+        <test-method status="PASS" signature="extentReport(java.lang.String)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="extentReport" is-config="true" duration-ms="395" started-at="2022-04-08T21:23:06 IST" finished-at="2022-04-08T21:23:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getDriver" is-config="true" duration-ms="8582" started-at="2022-04-08T21:23:06 IST" finished-at="2022-04-08T21:23:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="holidayHomes()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="holidayHomes" duration-ms="5545" started-at="2022-04-08T21:23:15 IST" finished-at="2022-04-08T21:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidayHomes -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="5" started-at="2022-04-08T21:23:20 IST" finished-at="2022-04-08T21:23:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=holidayHomes status=SUCCESS method=HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchPage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="searchPage" duration-ms="15290" started-at="2022-04-08T21:23:20 IST" depends-on-methods="Tests.HolidayHomes.holidayHomes" finished-at="2022-04-08T21:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:23:36 IST" finished-at="2022-04-08T21:23:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPage status=SUCCESS method=HolidayHomes.searchPage()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="resultsPage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="resultsPage" duration-ms="3798" started-at="2022-04-08T21:23:36 IST" depends-on-methods="Tests.HolidayHomes.searchPage" finished-at="2022-04-08T21:23:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:23:39 IST" finished-at="2022-04-08T21:23:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resultsPage status=SUCCESS method=HolidayHomes.resultsPage()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SortBy()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="SortBy" duration-ms="2315" started-at="2022-04-08T21:23:39 IST" depends-on-methods="Tests.HolidayHomes.resultsPage" finished-at="2022-04-08T21:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:23:42 IST" finished-at="2022-04-08T21:23:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SortBy status=SUCCESS method=HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="liftAccess()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="liftAccess" duration-ms="2613" started-at="2022-04-08T21:23:42 IST" depends-on-methods="Tests.HolidayHomes.resultsPage" finished-at="2022-04-08T21:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liftAccess -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:23:44 IST" finished-at="2022-04-08T21:23:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=liftAccess status=SUCCESS method=HolidayHomes.liftAccess()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="holidayHomePrice" duration-ms="3709" started-at="2022-04-08T21:23:44 IST" depends-on-methods="Tests.HolidayHomes.liftAccess" finished-at="2022-04-08T21:23:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidayHomePrice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:23:48 IST" finished-at="2022-04-08T21:23:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=holidayHomePrice status=SUCCESS method=HolidayHomes.holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="returnHomePage()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="returnHomePage" duration-ms="1429" started-at="2022-04-08T21:23:48 IST" depends-on-methods="Tests.HolidayHomes.holidayHomePrice" finished-at="2022-04-08T21:23:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHomePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@4c762604]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:23:49 IST" finished-at="2022-04-08T21:23:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=returnHomePage status=SUCCESS method=HolidayHomes.returnHomePage()[pri:0, instance:Tests.HolidayHomes@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:Tests.HolidayHomes@4c762604]" name="flushReport" is-config="true" duration-ms="354" started-at="2022-04-08T21:24:25 IST" finished-at="2022-04-08T21:24:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Tests.HolidayHomes -->
+    </test> <!-- Chrome -->
+    <test name="MS-Edge" duration-ms="82731" started-at="2022-04-08T21:24:25 IST" finished-at="2022-04-08T21:25:48 IST">
+      <class name="Tests.Cruises">
+        <test-method status="PASS" signature="cruisesHome()[pri:0, instance:Tests.Cruises@43d7741f]" name="cruisesHome" duration-ms="12504" started-at="2022-04-08T21:25:10 IST" finished-at="2022-04-08T21:25:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruisesHome -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@43d7741f]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:25:22 IST" finished-at="2022-04-08T21:25:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cruisesHome status=SUCCESS method=Cruises.cruisesHome()[pri:0, instance:Tests.Cruises@43d7741f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="selectCruises()[pri:0, instance:Tests.Cruises@43d7741f]" name="selectCruises" duration-ms="9197" started-at="2022-04-08T21:25:22 IST" depends-on-methods="Tests.Cruises.cruisesHome" finished-at="2022-04-08T21:25:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruises -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@43d7741f]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:25:31 IST" finished-at="2022-04-08T21:25:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCruises status=SUCCESS method=Cruises.selectCruises()[pri:0, instance:Tests.Cruises@43d7741f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="shipDetails()[pri:0, instance:Tests.Cruises@43d7741f]" name="shipDetails" duration-ms="13344" started-at="2022-04-08T21:25:31 IST" depends-on-methods="Tests.Cruises.selectCruises" finished-at="2022-04-08T21:25:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@43d7741f]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:25:45 IST" finished-at="2022-04-08T21:25:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shipDetails status=SUCCESS method=Cruises.shipDetails()[pri:0, instance:Tests.Cruises@43d7741f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="close()[pri:1, instance:Tests.Cruises@43d7741f]" name="close" duration-ms="3352" started-at="2022-04-08T21:25:45 IST" finished-at="2022-04-08T21:25:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Cruises@43d7741f]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:25:48 IST" finished-at="2022-04-08T21:25:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=close status=SUCCESS method=Cruises.close()[pri:1, instance:Tests.Cruises@43d7741f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.Cruises -->
+      <class name="Tests.HolidayHomes">
+        <test-method status="PASS" signature="extentReport(java.lang.String)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="extentReport" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:25 IST" finished-at="2022-04-08T21:24:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getDriver" is-config="true" duration-ms="6244" started-at="2022-04-08T21:24:25 IST" finished-at="2022-04-08T21:24:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="holidayHomes()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="holidayHomes" duration-ms="6647" started-at="2022-04-08T21:24:32 IST" finished-at="2022-04-08T21:24:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidayHomes -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:38 IST" finished-at="2022-04-08T21:24:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=holidayHomes status=SUCCESS method=HolidayHomes.holidayHomes()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchPage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="searchPage" duration-ms="16895" started-at="2022-04-08T21:24:38 IST" depends-on-methods="Tests.HolidayHomes.holidayHomes" finished-at="2022-04-08T21:24:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:24:55 IST" finished-at="2022-04-08T21:24:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPage status=SUCCESS method=HolidayHomes.searchPage()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="resultsPage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="resultsPage" duration-ms="4040" started-at="2022-04-08T21:24:55 IST" depends-on-methods="Tests.HolidayHomes.searchPage" finished-at="2022-04-08T21:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:24:59 IST" finished-at="2022-04-08T21:24:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resultsPage status=SUCCESS method=HolidayHomes.resultsPage()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SortBy()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="SortBy" duration-ms="2440" started-at="2022-04-08T21:24:59 IST" depends-on-methods="Tests.HolidayHomes.resultsPage" finished-at="2022-04-08T21:25:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:25:02 IST" finished-at="2022-04-08T21:25:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SortBy status=SUCCESS method=HolidayHomes.SortBy()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="liftAccess()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="liftAccess" duration-ms="2881" started-at="2022-04-08T21:25:02 IST" depends-on-methods="Tests.HolidayHomes.resultsPage" finished-at="2022-04-08T21:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liftAccess -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:25:05 IST" finished-at="2022-04-08T21:25:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=liftAccess status=SUCCESS method=HolidayHomes.liftAccess()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="holidayHomePrice" duration-ms="2612" started-at="2022-04-08T21:25:05 IST" depends-on-methods="Tests.HolidayHomes.liftAccess" finished-at="2022-04-08T21:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidayHomePrice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T21:25:07 IST" finished-at="2022-04-08T21:25:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=holidayHomePrice status=SUCCESS method=HolidayHomes.holidayHomePrice()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="returnHomePage()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="returnHomePage" duration-ms="2468" started-at="2022-04-08T21:25:07 IST" depends-on-methods="Tests.HolidayHomes.holidayHomePrice" finished-at="2022-04-08T21:25:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHomePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T21:25:10 IST" finished-at="2022-04-08T21:25:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=returnHomePage status=SUCCESS method=HolidayHomes.returnHomePage()[pri:0, instance:Tests.HolidayHomes@2698dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:Tests.HolidayHomes@2698dc7]" name="flushReport" is-config="true" duration-ms="82" started-at="2022-04-08T21:25:48 IST" finished-at="2022-04-08T21:25:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Tests.HolidayHomes -->
+    </test> <!-- MS-Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
